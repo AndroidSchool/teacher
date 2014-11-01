@@ -19,5 +19,15 @@ module Teacher
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    
+    dotenv_root = "/home/#{Etc.getlogin}/dotenv"
+    if Rails.env.production?
+      dotenv_root = "/home/deployagent/dotenv"
+    end
+    puts "Loading .env from #{dotenv_root}/#{Rails.application.class.parent_name}/common.env"
+    Dotenv.load!("#{dotenv_root}/#{Rails.application.class.parent_name}/common.env");
+    puts "Loading .env from #{dotenv_root}/#{Rails.application.class.parent_name}/#{Rails.env}.env";
+    Dotenv.load!("#{dotenv_root}/#{Rails.application.class.parent_name}/#{Rails.env}.env");
+
   end
 end
