@@ -46,3 +46,6 @@ gem "font-awesome-rails"
 gem 'rails_12factor', group: :production
 gem 'angularjs-rails'
 
+#bootstrap support
+gem "twitter-bootstrap-rails"
+
