@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="100px"
+   height="100px"
+   viewBox="0 0 100 100"
+   enable-background="new 0 0 100 100"
+   xml:space="preserve"
+   id="svg2"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="icon_15003.svg"><metadata
+   id="metadata24"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs22" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="715"
+   id="namedview20"
+   showgrid="false"
+   inkscape:zoom="2.36"
+   inkscape:cx="-19.915254"
+   inkscape:cy="50"
+   inkscape:window-x="0"
+   inkscape:window-y="31"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg2" />
+<g
+   id="Captions">
+</g>
+<g
+   id="Your_Icon"
+   inkscape:export-filename="/home/gauravt/teacher/teacher/app/assets/images/icon_15003.png"
+   inkscape:export-xdpi="95.57"
+   inkscape:export-ydpi="95.57">
+	<path
+   d="M2,18v64h97V18H2z M6,26h65v52H6V26z M95,78H75V26h20V78z"
+   id="path6" />
+	<rect
+   x="77"
+   y="28"
+   width="4"
+   height="4"
+   id="rect8" />
+	<rect
+   x="83"
+   y="28"
+   width="6"
+   height="4"
+   id="rect10" />
+	<rect
+   x="83"
+   y="34"
+   width="10"
+   height="4"
+   id="rect12" />
+	<rect
+   x="77"
+   y="34"
+   width="4"
+   height="4"
+   id="rect14" />
+	<path
+   fill="#000000"
+   d="M10,49.805L15.845,30h2.759l-5.846,19.805H10z"
+   id="path16" />
+	<path
+   fill="#000000"
+   d="M28.765,31.366l-2.95,3.469l0.027,0.082l4.343-0.874v2.759l-4.371-0.765l-0.027,0.082l2.977,3.36   l-2.43,1.42l-1.557-4.234l-0.055,0.028l-1.584,4.206l-2.349-1.42l2.923-3.414V36.01l-4.29,0.792v-2.759l4.234,0.847l0.027-0.055   l-2.896-3.441L23.22,30l1.53,4.179h0.056L26.362,30L28.765,31.366z"
+   id="path18" />
+</g>
+</svg>
