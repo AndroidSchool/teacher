@@ -1,0 +1,110 @@
+
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header" style="padding:10px">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><i style="font-size:42px;margin-top:-10px"class="fa fa-android"></i></a>
+          <a class="navbar-brand" href="#"></i>AndroidSchool</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right" style="padding:10px">
+            <li>
+               <a href="#fakelink" class="btn btn-lg btn-primary">Download Free EBook</a>  
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+      <div align="center">
+        <h1> Learn Android Development </h1>
+        <h4> Interactive Android Tutorials in your browser </h4>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div align="center" style="padding-bottom:20px">
+        <div style="width:560px;height:300px;background-image:url(<%= asset_path "phone2.png" %>);position:relative">
+          <div style="width:470px;height:240px;background-color:#262626;position:absolute;top:30px;left:45px;height:240px;text-align:center;cursor:pointer">
+            <div style="padding-top:60px;">
+              <img src="<%= asset_path 'play_icon.png'%>"/>
+            </div>
+            <div style="padding-top:10px">
+              <a href=""> Start Tutorial </a> 
+            </div>
+          </div>
+        </div>
+      </div>
+          
+
+    </div> <!-- /container -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <div align="center">
+            <div class="form-group">
+              <div class="input-group">
+                 <input type="text" class="form-control" placeholder="Your Email">
+                 <span class="input-group-addon">Subscribe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div style="text-align:center;color:#101010">
+            <i style="font-size:100px;"class="fa fa-android"></i>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div style="text-align:center;padding-top:15px">
+            <img src="<%=asset_path 'icon_15003.png'%>" style="width:110px">  </img>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div style="text-align:center">
+            <img src="<%=asset_path 'icon_29359.png'%>" style="width:95px">  </img>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div style="text-align:center">
+            <h5> Interactive Tutorials </h5>
+          </div>
+          <p style="text-align:justify"> Get Started with Android development. Learn at your own pace using our amazing library of video tutorials.</p>
+        </div>
+        <div class="col-md-4">
+          <div style="text-align:center">
+            <h5> Learn By Doing </h5>
+          </div>
+          <p style="text-align:justify">Create apps and practice using interactive code challenges. Our online IDE lets you learn right inside your browser.</p>
+        </div>
+        <div class="col-md-4">
+          <div style="text-align:center">
+            <h5> Build real apps </h5>
+          </div>
+          <p style="text-align:justify">Follow our step by step guides to build real world apps. Hundreds of code samples and exercises to get you started.</p>
+        </div>
+      </div>
+      
+    </div>
+    <%= render :template => 'landing/footer'%>
